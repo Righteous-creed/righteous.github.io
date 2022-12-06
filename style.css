@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header{
+    min-height: 80vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 61, 40, 0.282),rgba(3, 85, 85, 0.29)), url(Images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.text-logo{
+    text-decoration: none;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav{
+    padding: 2.1% 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navlinks{
+    flex: 1;
+    text-align: right;
+}
+.navlinks ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 30px;
+    position: relative;
+}
+.navlinks ul li a{
+    color: white;
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:600;
+}
+.navlinks ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    margin: auto;
+    display: block;
+    transition: 0.5s;
+    background: rgb(17, 161, 239);
+}
+.navlinks ul li:hover::after{
+    width: 100%;
+}
+.textbox{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 6%;
+}
+span{
+    color:rgb(17, 161, 239) ;
+}
+.textbox h1{
+    font-size: 2.12rem;
+}
+.button{
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid rgb(17, 161, 239) ;
+    color:white;
+    padding: 0.2rem 1.5rem;
+    font-size: 0.6rem;
+    font-weight: 500;
+    background-color: rgb(17, 161, 239);
+}
+.textbox a{
+    margin-top: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
